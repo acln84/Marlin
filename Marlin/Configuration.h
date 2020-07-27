@@ -490,10 +490,10 @@
                                   // Set/get with gcode: M301 E[extruder number, 0-2]
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
-  // Creality Ender-3
-  #define DEFAULT_Kp 36.37
-  #define DEFAULT_Ki 4.54
-  #define DEFAULT_Kd 72.90
+  // Creality Ender-3 Micro Swiss Direct Drive
+  #define DEFAULT_Kp 28.51
+  #define DEFAULT_Ki 3.32
+  #define DEFAULT_Kd 61.13
 
 #endif // PIDTEMP
 
@@ -742,7 +742,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 139.23 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 138.54 }
 
 /**
  * Default Max Feed Rate (mm/s)
