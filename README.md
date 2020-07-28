@@ -1,7 +1,3 @@
-# About this fork of Marlin bugfix
-
-This repo is optimized for use with BigTreeTech SKR Mini E3 V2.0 mainboard, together with BLTouch (endstop pins not used) and Neopixels.
-
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
